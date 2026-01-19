@@ -16,5 +16,3 @@ spec:
         name: cnpg
         namespace: flux-system
       interval: 12h
-~
-
