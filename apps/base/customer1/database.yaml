@@ -16,7 +16,7 @@ spec:
     size: 1Gi
 
   plugins:
-        - name: barman-cloud.cloudnative-pg.io
+    - name: barman-cloud.cloudnative-pg.io
       isWALArchiver: true
       parameters:
         barmanObjectName: customer1-objectstore
