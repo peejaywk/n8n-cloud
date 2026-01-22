@@ -3,7 +3,7 @@ kind: ScheduledBackup
 metadata:
   name: customer1-db-backup
 spec:
-  schedule: "0 0 10 * * *"
+  schedule: "0 0 3 * * *"
   backupOwnerReference: cluster
   cluster:
     name: customer1-db
