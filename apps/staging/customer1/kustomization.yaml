@@ -9,7 +9,7 @@ patches:
     patch: |-
       - op: replace
         path: /spec/parameters/userAssignedIdentityID
-        value: "60555b58-b98a-4fe8-a46a-99aec90c5cf5"
+        value: "d721a52e-6e33-4e37-b725-36eb78755430"
       - op: replace
         path: /spec/parameters/tenantId
         value: "a248dd94-48b7-4395-a74f-2d3e5962bb6b"
@@ -20,4 +20,3 @@ patches:
       - op: replace
         path: /spec/configuration/destinationPath
         value: "https://n8npeejaybackupsstaging.blob.core.windows.net/customer1"
-
