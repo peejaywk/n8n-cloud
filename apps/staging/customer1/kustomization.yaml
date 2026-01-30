@@ -19,7 +19,7 @@ patches:
     patch: |-
       - op: replace
         path: /spec/configuration/destinationPath
-        value: "https://n8npeejaybackupsstaging.blob.core.windows.net/customer1"
+        value: "https://mercurybackupsstaging.blob.core.windows.net/customer1"
   - target:
       kind: Ingress
       name: customer1-ingress
